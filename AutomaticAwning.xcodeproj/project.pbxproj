@@ -8,22 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		2A79A3B01FCDA7EB009A7302 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A79A3AF1FCDA7EB009A7302 /* AppDelegate.swift */; };
-		2A79A3B21FCDA7EB009A7302 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A79A3B11FCDA7EB009A7302 /* ViewController.swift */; };
+		2A79A3B21FCDA7EB009A7302 /* AutomaticAwningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A79A3B11FCDA7EB009A7302 /* AutomaticAwningViewController.swift */; };
 		2A79A3B51FCDA7EB009A7302 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A79A3B31FCDA7EB009A7302 /* Main.storyboard */; };
 		2A79A3B81FCDA7EB009A7302 /* AutomaticAwning.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A79A3B61FCDA7EB009A7302 /* AutomaticAwning.xcdatamodeld */; };
 		2A79A3BA1FCDA7EB009A7302 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A79A3B91FCDA7EB009A7302 /* Assets.xcassets */; };
 		2A79A3BD1FCDA7EB009A7302 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A79A3BB1FCDA7EB009A7302 /* LaunchScreen.storyboard */; };
+		2A79A3C51FCDA86E009A7302 /* AwningListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A79A3C41FCDA86E009A7302 /* AwningListTableViewController.swift */; };
+		2A79A3C71FCDA92D009A7302 /* AddAwningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A79A3C61FCDA92D009A7302 /* AddAwningViewController.swift */; };
+		2A79A3CB1FCDBDED009A7302 /* Awning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A79A3CA1FCDBDED009A7302 /* Awning.swift */; };
+		2A79A3CD1FCDD170009A7302 /* 401715-200.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A79A3CC1FCDD170009A7302 /* 401715-200.png */; };
+		2A79A3CF1FCDECBB009A7302 /* av206d445c95daddcc4ad.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A79A3CE1FCDECBA009A7302 /* av206d445c95daddcc4ad.png */; };
+		2A79A3D21FCDFEB8009A7302 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A79A3D11FCDFE9C009A7302 /* CoreBluetooth.framework */; };
+		2A79A3D41FCE0B05009A7302 /* ScanTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A79A3D31FCE0B05009A7302 /* ScanTableViewController.swift */; };
+		2A79A3D61FCE27E7009A7302 /* BlueControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A79A3D51FCE27E7009A7302 /* BlueControlViewController.swift */; };
+		2A79A3D81FCEF247009A7302 /* AwningTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A79A3D71FCEF247009A7302 /* AwningTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2A79A3AC1FCDA7EB009A7302 /* AutomaticAwning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutomaticAwning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A79A3AF1FCDA7EB009A7302 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2A79A3B11FCDA7EB009A7302 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A79A3B11FCDA7EB009A7302 /* AutomaticAwningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomaticAwningViewController.swift; sourceTree = "<group>"; };
 		2A79A3B41FCDA7EB009A7302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A79A3B71FCDA7EB009A7302 /* AutomaticAwning.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AutomaticAwning.xcdatamodel; sourceTree = "<group>"; };
 		2A79A3B91FCDA7EB009A7302 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A79A3BC1FCDA7EB009A7302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A79A3BE1FCDA7EB009A7302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A79A3C41FCDA86E009A7302 /* AwningListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwningListTableViewController.swift; sourceTree = "<group>"; };
+		2A79A3C61FCDA92D009A7302 /* AddAwningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAwningViewController.swift; sourceTree = "<group>"; };
+		2A79A3CA1FCDBDED009A7302 /* Awning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Awning.swift; sourceTree = "<group>"; };
+		2A79A3CC1FCDD170009A7302 /* 401715-200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "401715-200.png"; path = "../../../Downloads/401715-200.png"; sourceTree = "<group>"; };
+		2A79A3CE1FCDECBA009A7302 /* av206d445c95daddcc4ad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = av206d445c95daddcc4ad.png; path = ../../../Downloads/av206d445c95daddcc4ad.png; sourceTree = "<group>"; };
+		2A79A3D11FCDFE9C009A7302 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		2A79A3D31FCE0B05009A7302 /* ScanTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanTableViewController.swift; sourceTree = "<group>"; };
+		2A79A3D51FCE27E7009A7302 /* BlueControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueControlViewController.swift; sourceTree = "<group>"; };
+		2A79A3D71FCEF247009A7302 /* AwningTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AwningTableViewCell.swift; path = ../../../.Trash/AwningTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A79A3D21FCDFEB8009A7302 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +61,7 @@
 			children = (
 				2A79A3AE1FCDA7EB009A7302 /* AutomaticAwning */,
 				2A79A3AD1FCDA7EB009A7302 /* Products */,
+				2A79A3D01FCDFE9C009A7302 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +76,31 @@
 		2A79A3AE1FCDA7EB009A7302 /* AutomaticAwning */ = {
 			isa = PBXGroup;
 			children = (
+				2A79A3D31FCE0B05009A7302 /* ScanTableViewController.swift */,
 				2A79A3AF1FCDA7EB009A7302 /* AppDelegate.swift */,
-				2A79A3B11FCDA7EB009A7302 /* ViewController.swift */,
+				2A79A3B11FCDA7EB009A7302 /* AutomaticAwningViewController.swift */,
+				2A79A3C41FCDA86E009A7302 /* AwningListTableViewController.swift */,
+				2A79A3C61FCDA92D009A7302 /* AddAwningViewController.swift */,
 				2A79A3B31FCDA7EB009A7302 /* Main.storyboard */,
+				2A79A3CA1FCDBDED009A7302 /* Awning.swift */,
+				2A79A3D51FCE27E7009A7302 /* BlueControlViewController.swift */,
+				2A79A3CC1FCDD170009A7302 /* 401715-200.png */,
+				2A79A3D71FCEF247009A7302 /* AwningTableViewCell.swift */,
+				2A79A3CE1FCDECBA009A7302 /* av206d445c95daddcc4ad.png */,
 				2A79A3B91FCDA7EB009A7302 /* Assets.xcassets */,
 				2A79A3BB1FCDA7EB009A7302 /* LaunchScreen.storyboard */,
 				2A79A3BE1FCDA7EB009A7302 /* Info.plist */,
 				2A79A3B61FCDA7EB009A7302 /* AutomaticAwning.xcdatamodeld */,
 			);
 			path = AutomaticAwning;
+			sourceTree = "<group>";
+		};
+		2A79A3D01FCDFE9C009A7302 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A79A3D11FCDFE9C009A7302 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +164,8 @@
 			files = (
 				2A79A3BD1FCDA7EB009A7302 /* LaunchScreen.storyboard in Resources */,
 				2A79A3BA1FCDA7EB009A7302 /* Assets.xcassets in Resources */,
+				2A79A3CD1FCDD170009A7302 /* 401715-200.png in Resources */,
+				2A79A3CF1FCDECBB009A7302 /* av206d445c95daddcc4ad.png in Resources */,
 				2A79A3B51FCDA7EB009A7302 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,8 +177,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A79A3D61FCE27E7009A7302 /* BlueControlViewController.swift in Sources */,
 				2A79A3B81FCDA7EB009A7302 /* AutomaticAwning.xcdatamodeld in Sources */,
-				2A79A3B21FCDA7EB009A7302 /* ViewController.swift in Sources */,
+				2A79A3C51FCDA86E009A7302 /* AwningListTableViewController.swift in Sources */,
+				2A79A3CB1FCDBDED009A7302 /* Awning.swift in Sources */,
+				2A79A3D41FCE0B05009A7302 /* ScanTableViewController.swift in Sources */,
+				2A79A3B21FCDA7EB009A7302 /* AutomaticAwningViewController.swift in Sources */,
+				2A79A3C71FCDA92D009A7302 /* AddAwningViewController.swift in Sources */,
+				2A79A3D81FCEF247009A7302 /* AwningTableViewCell.swift in Sources */,
 				2A79A3B01FCDA7EB009A7302 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6L34F3QQGK;
 				INFOPLIST_FILE = AutomaticAwning/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PP.tu.ac.th.AutomaticAwning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -296,6 +341,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6L34F3QQGK;
 				INFOPLIST_FILE = AutomaticAwning/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PP.tu.ac.th.AutomaticAwning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
